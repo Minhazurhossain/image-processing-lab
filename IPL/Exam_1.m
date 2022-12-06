@@ -1,0 +1,15 @@
+u=input('Enter Values:');
+n=-4:4;
+subplot(1,2,1);
+stem(n,u);
+title('orginal signal');
+xlabel('time');
+ylabel('amplitude');
+hold on;
+x=fliplr(u);
+subplot(1,2,2);
+stem(x);
+title('folded signal');
+xlabel('time');
+ylabel('amplitude');
+hold off;

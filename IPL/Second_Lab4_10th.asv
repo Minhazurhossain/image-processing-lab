@@ -1,0 +1,16 @@
+x=input('A');
+delay=input('Delay');
+
+
+m=length(x);
+
+new=zeros(1,m+delay);
+
+plot(
+
+for
+    i = 1:1:m
+    new(i+delay)= x(i);
+end
+
+stem(new);
